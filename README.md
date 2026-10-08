@@ -54,6 +54,12 @@ Rounded corners (5mm)
 
 I have to work with the plate's design, which is a bit difficult because the footprint of the `switches` (*the topmost component in the pcb design above*) is not the same of the plate's cutout. 
 
+Assuming the component mount aligns with the default footprint, here is the formula for aligning the plate cutout to the PCB footprint:
+
+```
+X_B = X_A + (X_plateB − X_plateA)
+Y_B = Y_A + (Y_plateB − Y_plateA)
+```
 
 # TODO!
 
@@ -62,7 +68,6 @@ I have to work with the plate's design, which is a bit difficult because the foo
 <img src = "Documentation/Photos/switch-question.png" width="500" alt="">
 
 2. Check if your `MX Switches` have mounting holes for the PCB footprint (*is it PCB-mounted or Plate-mounted?*)
-
 
 
 3. Check if your `potentiometers` have the same depth as your `MX switches` for PCB mounting
