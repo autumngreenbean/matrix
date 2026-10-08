@@ -9,6 +9,7 @@ Height: 140.807
 Rounded corners (5mm)
 
 *.DXF files for laser cutting found in* `/Manufacturing/`
+[Black Diffusion Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
 # Components
 
@@ -59,7 +60,10 @@ I have to work with the plate's design, which is a bit difficult because the foo
 1. Check if your `MX Switches` have a center LED cutout/pad to accomodate an LED under the switch. Modify the PCB layout.
 
 <img src = "Documentation/Photos/switch-question.png" width="500" alt="">
+
 2. Check if your `MX Switches` have mounting holes for the PCB footprint (*is it PCB-mounted or Plate-mounted?*)
+
+
 
 3. Check if your `potentiometers` have the same depth as your `MX switches` for PCB mounting
 
