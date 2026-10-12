@@ -61,6 +61,8 @@ X_B = X_A + (X_plateB − X_plateA)
 Y_B = Y_A + (Y_plateB − Y_plateA)
 ```
 
+Note: 3.5mm clearance between switchplate and pcb... not great news in terms of pot and switch mounting on the same board
+
 # TODO!
 
 1. Check if your `MX Switches` have a center LED cutout/pad to accomodate an LED under the switch. Modify the PCB layout.
