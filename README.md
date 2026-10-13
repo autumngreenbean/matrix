@@ -49,17 +49,7 @@ Rounded corners (5mm)
 
 <img src = "Documentation/Photos/pcb-progress.png" width="500" alt="">
 
-*a pcb sketch of unrouted bits.. little bit stumped now but it is a later problem*
-
-
-I have to work with the plate's design, which is a bit difficult because the footprint of the `switches` (*the topmost component in the pcb design above*) is not the same of the plate's cutout. 
-
-Assuming the component mount aligns with the default footprint, here is the formula for aligning the plate cutout to the PCB footprint:
-
-```
-X_B = X_A + (X_plateB − X_plateA)
-Y_B = Y_A + (Y_plateB − Y_plateA)
-```
+Currently working on the matrix of switches mounting onto a custom PCB with an LED matrix!
 
 Note: 3.5mm clearance between switchplate and pcb... not great news in terms of pot and switch mounting on the same board
 
